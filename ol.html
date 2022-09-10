@@ -8,14 +8,14 @@
     <meta name="keywords" content="html, metadados, cometários, layout, listas">
     <!--FIM METADADOS-->
     <title>Aula 03 - Desenvolvimento Web 1</title>
-
+    <link rel="stylesheet" href="Css/Estilo.css">
 </head>
 <body>
-    <header>
-        <a href="index.html" title="Voltar ao inicio"></a><img src="imagem/FATEC_ZONA_LESTE.png" alt="logo Fatec Zona Leste nas cores cinza e vermelho"></a>
+    <header class="flex-container" id="topo">
+        <a href="index.html" title="Voltar ao inicio"></a><img class="imagem" src="imagem/FATEC_ZONA_LESTE.png" alt="logo Fatec Zona Leste nas cores cinza e vermelho"></a>
     </header>
-    <nav>
-        <ul>
+    <nav class="flex-container">
+        <ul class="menu">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="comentários.html">Comentários</a></li>
             <li><a href="metadados.html">Metadados</a></li>
@@ -25,20 +25,15 @@
                     <li><a href="ul.html">Listas Não Ordenada</a></li>
                 </ul>
             </li>
-            <li><a href="layout.html">Layout</a></li>
+            <li><a href="layout_.html">Layout</a></li>
         </ul>
     </nav>
-    <main>
-        <h1>AULA DE DESENVOLVIMENTO WEB</h1>
-        <h2>Conteúdos</h2>
-        <ol>
-            <li>Comentários</li>
-            <li>Metadados</li>
-            <li>Listas</li>
-            <li>Layout</li>
-        </ol>
+    <main class="flex-container" id="conteudo"><!--Conteúdo-->
+        <h1>Listas Ordenada</h1>
+        <p>Uma lista ordenada começa com a tag &lt;ol&gt; Cada item da lista começa com a tag &lt;li&gt;.</p>
+        <img class="imagem" src="imagem/ol.png" alt="imagem contendo instruções html para listas ordenadas">
     </main>
-    <footer>
+    <footer class="flex-container" id="rodapé">
         <p>Desenvolvido por Ulisses Antonelli<br>
             Todos os direitos reservados &copy; 2022
         </p>
